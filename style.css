@@ -1,3 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-color:#e0f2f1;
+    --teal-color:#4db6ac;
+}
+body{
+    background-color:var(--primary-color);
+}
 label{
     display: block;
     padding-bottom:1rem;
