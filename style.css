@@ -1,15 +1,75 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
 }
-:root{
-    --primary-color:#e0f2f1;
-    --teal-color:#4db6ac;
+
+:root {
+    --primary-color: #e0f2f1;
+    --teal-color: #4db6ac;
 }
-body{
-    background-color:var(--primary-color);
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
 }
-label{
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    border: 3px solid var(--teal-color);
+    border-radius: 2rem;
+}
+h1{
+    margin-top: 2rem;
+    color: var(--teal-color);
+}
+
+label {
     display: block;
-    padding-bottom:1rem;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+#submit-btn {
+
+    width: 20%;
+    padding: 0.8em;
+    margin: 1rem;
+    background-color: white;
+    color: var(--teal-color);
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    border-color: var(--teal-color);
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#submit-btn:hover {
+    background-color:var(--teal-color);
+    color: var(--primary-color);
+}
+
+.outputBox {
+    margin: 2rem;
+    font-size: larger;
+    color: var(--teal-color);
+    margin-bottom: 2rem;
+
 }
